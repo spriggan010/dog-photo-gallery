@@ -29,6 +29,11 @@ body{
     
 }
 
+.gallery img::after{
+    content: "";
+    width: 300px;
+}
+
 .header{
     text-align: center;
     text-transform: uppercase;
